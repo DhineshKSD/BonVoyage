@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to Bon-Voyage</title>
+        <link rel="stylesheet" type="text/css" href="../Stylesheets/login.css">
+        <link rel="stylesheet" type="text/css" href="../Stylesheets/login1.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">    
+    </head> 
+    <body>
+            <header>Bon-Voyage</header>
+            <a><img alt="Image-not found" class="logo" src="../Resource/logo.png"></a> 
+            <div class="registerbox">
+            <img src="../Resource/avatar.png" class="avatar">
+                <h1>Register Here</h1>
+
+                <form id="register-form"  autocomplete="off">
+                    <p>Username</p>
+                    <input id="name" type="text" placeholder="Enter Username" value=""/>
+                    <p>Password</p>
+                    <input id="pw" type="password" placeholder="Enter Password" value=""/>
+                    <br>
+                    <br>
+                    <input id="rgstr_btn" type="submit" value="Get Account" onClick="validate_reg()"/> 
+                </form>
+            </div>
+
+            <div class="loginbox">
+                <img src="../Resource/avatar.png" class="avatar">
+                <h2>Login Here</h2>
+
+                <form id="login-form"   autocomplete="off">
+                    <p>Username</p>
+                    <input id="userName" type="text" placeholder="Enter Username" value=""/>
+                    <p>Password</p>
+                    <input id="userPw" type="password" placeholder="Enter Password" value=""/>
+                    <br>
+                    <br>
+                    <a class="btn">
+                        <p id="log" onClick="validate_log()">Login</p>
+                    </a>
+                </form>
+            </div>
+            
+            <button id="myBtn">About Us</button>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Bon-Voyage is India's leading player for Domestic & International flight bookings, and have a dominant position in Air ticketing 
+                    sector. We offers great offers, some of the lowest airfares, exclusive discounts and a seamless online booking experience With the cheapest fare guarantee. 
+                    Bon-Voyage constantly adds value to its product and continues to offer the best to its customers. </p>
+                </div>
+            </div>
+            
+            <div id="logocontainer">
+                <a href="https://www.facebook.com/"><img alt="Image-not found" class="fb" src="../Resource/fb.jpg"></a><br>
+                <a href="https://www.google.com/"><img alt="Image-not found" class="google" src="../Resource/google.png"></a>
+            </div>
+
+            <section class="contact-form">
+                <div class="container">
+                    <div class="section-heading">
+                        <h3>Leave us a message</h3>
+                    </div>
+                        <h4>Travel Blog</h4>
+                        <a href="http://www.walkthroughindia.com/attraction/top-15-most-important-tourist-attractions-of-chennai/"><img alt="Image-not found" class="dest1" src="../Resource/chennai.jpg"></a>
+                        <a href="http://www.walkthroughindia.com/local/15-most-popular-and-must-visit-temples-in-and-around-bangalore/"><img alt="Image-not found" class="dest2" src="../Resource/bangalore.jpg"></a>  
+                        <a href="http://www.walkthroughindia.com/local/top-10-must-visit-tourist-temples-tiruchirappalli/"><img alt="Image-not found" class="dest3" src="../Resource/trichy.jpg"></a> 
+                        <a href="http://www.walkthroughindia.com/itinerary/see-kochi-24-hours/"><img alt="Image-not found" class="dest4" src="../Resource/kochi.jpg"></a> 
+                        <form id="contact" autocomplete="off">
+                                
+                            <label for="msgname">Name:</label>
+                            <input name="contactname" type="text" class="form-control" id="contactname" placeholder="Your name..." ><br><br>
+                            
+                            <label for="email">Email:</label>    
+                            <input name="contactemail" type="text" class="form-control" id="contactemail" placeholder="Your email..." ><br><br>
+                            
+                            <label id="message" for="message">Message:</label>  
+                            <textarea name="contactmessage" class="form-control" id="contactmessage" placeholder="Your message..." ></textarea><br>
+                            
+                            <button type="submit" id="form-submit" class="msgbtn" onclick="contact()">Submit</button> 
+                                
+                        </form>     
+                </div>
+            </section>
+            
+            <script type="text/javascript" language="javascript" src="../Javascript/login.js"></script>
+            <script type="text/javascript" language="javascript" src="../Javascript/modal.js"></script>
+            <script src="../Javascript/Database.js"></script>
+    </body>
+</html>
