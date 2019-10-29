@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=utf-8 />
+        <title>Traveller Details</title>
+        <link rel="stylesheet" href="../Stylesheets/traveller.css">
+        <script src="../Javascript/Database.js"></script>
+        <script src="../Javascript/script.js"></script>
+        <script src="../Javascript/main.js"></script>
+    </head>
+    <body>
+        <header>Bon-Voyage</header>
+        <a><img alt="Image-not found" class="logo" src="../Resource/logo.png"></a> 
+        <form class="Traveller" onsubmit="event.preventDefault();"  autocomplete="off">
+
+            <div id="title">
+                <h1>Enter Traveller Details</h1>
+            </div>
+
+            <div id="formcontent">
+                <label for="Traveller Name">Traveller Name:</label>
+                <input id="name" type="text" placeholder="Enter Traveller Name" ><br>
+
+                <label for="E-mail">E-mail:</label> 
+                <input id="email" type="email" placeholder="Enter E-mail"><br>
+
+                <label for="Mobile-No">Mobile-No:</label>
+                <input id="mobileno" type="number" placeholder="Enter Mobile - No" />
+
+                <label for="gender">Gender:</label>
+                <select id="gender">
+                    <option value=" " selected="selected">Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select><br>
+
+                <label for="passport_id">Passport-Id:</label>
+                <input id="passport_id" type="text" placeholder="Enter Passport - Id" >
+
+                <label for="payment">Payment Method:</label>
+                <select id="payment">
+                    <option value=" " selected="selected">Payment</option>
+                    <option value="Debit-Card">Debit-Card</option>
+                    <option value="Net-Banking">Net-Banking</option>
+                </select>
+            </div>
+
+            <div id="passenger"></div>
+            
+            <div class="Book">
+                <button type="submit" id="Bookbtn" onclick="print_content()">Book</button>
+            </div>
+        </form> 
+    </body>
+</html>
