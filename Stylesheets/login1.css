@@ -58,7 +58,7 @@
     max-width: 500px;
     position: relative;
     left:60%;
-    bottom:135px;
+    bottom:75px;
     background-color: rgba(12, 12, 12, 0.7);
     width:15%;
     height:30%;
@@ -93,37 +93,55 @@ label
 .dest1
 {
     position: relative;
-    width:200px;
-    height: 25%;
-    left:50px;
-    top:10px;
+    width:12%;
+    height: 20%;
+    left:3%;
+    top:60px;
     border-radius:20px;
 }
 .dest2
 {
     position: relative;
-    width:200px;
-    height: 25%;
-    left:90px;
-    top:10px;
+    width:12%;
+    height: 20%;
+    left:7%;
+    top:60px;
     border-radius:20px;
 }
 .dest3
 {
     position: relative;
-    width:200px;
-    height: 25%;
-    right:26.5%;
-    top:230px;
+    width:12%;
+    height: 20%;
+    left:10%;
+    top:60px;
     border-radius:20px;
 }
 .dest4
 {
     position: relative;
-    width:200px;
-    height: 25%;
-    right:23.5%;
-    top:230px;
+    width:12%;
+    height: 20%;
+    right:34%;
+    top:270px;
+    border-radius:20px;
+}
+.dest5
+{
+    position: relative;
+    width:12%;
+    height: 20%;
+    right:30%;
+    top:270px;
+    border-radius:20px;
+}
+.dest6
+{
+    position: relative;
+    width:12%;
+    height: 20%;
+    right:27%;
+    top:270px;
     border-radius:20px;
 }
 h3
@@ -132,14 +150,15 @@ h3
     color: whitesmoke;
     font-size: 1.5em;
     left:42%;
-    bottom:35px;
+    top:5px;
 }
 h4
 {
     position: relative;
     color: whitesmoke;
     font-size: 1.5em;
-    left:200px;
+    left:20.5%;
+    top:50px;
 }
 .dest1:hover
 {
@@ -154,6 +173,14 @@ h4
     transform: scale(1.15);
 }
 .dest4:hover
+{
+    transform: scale(1.15);
+}
+.dest5:hover
+{
+    transform: scale(1.15);
+}
+.dest6:hover
 {
     transform: scale(1.15);
 }
