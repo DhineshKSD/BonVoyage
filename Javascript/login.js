@@ -54,6 +54,11 @@ function  validate_reg()
     }
 }
 
+function scrollWin() 
+{
+    window.scrollTo(0, 1000);
+}
+
 function validate_log()
 {
     var username1=JSON.parse(localStorage.getItem("username"));
