@@ -27,7 +27,7 @@
                 <div class="trip">
                     <fieldset>
                             <label for="tripselection">Trip-Selection</label>
-                            <select id="trip" onchange="ChangecityList()">
+                            <select id="trip" onchange="change_citylist()">
                                 <option value=" " selected="selected">Select-Trip</option>
                                 <option value="Domestic">Domestic</option>
                                 <option value="International">International</option>
@@ -38,14 +38,14 @@
                 <div class="source">
                     <fieldset>
                     <label for="from">Flying-From:</label>
-                    <select id="start" onchange="updateSelect(this,'end');" name="indication_type[]"></select>
+                    <select id="start" onchange="update_select(this,'end');" name="indication_type[]"></select>
                     </fieldset>
                 </div>
 
                 <div class="destination">
                     <fieldset>
                         <label for="to">Flying-To:</label>
-                        <select id="end"name="indication_type[]" onchange="updateSelect(this,'start');"></select>
+                        <select id="end"name="indication_type[]" onchange="update_select(this,'start');"></select>
                     </fieldset>
                 </div>
                     
