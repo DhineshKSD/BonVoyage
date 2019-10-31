@@ -54,7 +54,7 @@ function  validate_reg()
     }
 }
 
-function scrollWin() 
+function scroll_win() 
 {
     window.scrollTo(0, 1000);
 }
