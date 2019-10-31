@@ -2,7 +2,7 @@ var Places = {};
 Places['Domestic'] = ['Select','Trichy', 'Chennai', 'Bangalore','Cochin'];
 Places['International'] = ['Select','Singapore', 'Malaysia', 'Mumbai', 'Chennai', 'Bangalore'];
 
-function ChangecityList()                          //Fn to show the cities based on the type of trip
+function change_citylist()                          //Fn to show the cities based on the type of trip
 {
     var cityList = document.getElementById("trip");
     var modelList1 = document.getElementById("start");
@@ -41,7 +41,7 @@ function ChangecityList()                          //Fn to show the cities based
     }
 } 
 
-function updateSelect(changedSelect, selectId) //same city occurance prevent fn
+function update_select(changedSelect, selectId) //same city occurance prevent fn
 {
     var otherSelect = document.getElementById(selectId);
     for (var i = 0; i < otherSelect.options.length; ++i) 
