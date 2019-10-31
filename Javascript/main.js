@@ -90,9 +90,10 @@ function compare() // Compare user search request with local database
     var flag1;
     var id=localStorage.getItem("user_id");
     key1 =  JSON.parse(window.localStorage.getItem("startcity"));
-    console.log(key1)
+    console.log(key1);
     key2 = JSON.parse(window.localStorage.getItem("endcity"));
-  
+    console.log(key2);
+
     for(var i=0;i<Database.length;i++)
     {
         if(key1[id]==Database[i].from && key2[id]==Database[i].to)
@@ -211,7 +212,7 @@ function booking()
     }          
 }
 
-function userchoice() //to review the booked flight details
+function user_choice() //to review the booked flight details
 {
     var id=localStorage.getItem("user_id");
     var space="&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
@@ -368,7 +369,7 @@ function update() //to edit trip selection
     window.location.assign("../Source/index.html");
 }
 
-function Deletefn() //to delete the planned trip 
+function delete_fn() //to delete the planned trip 
 {
     var id=localStorage.getItem("user_id");
     
