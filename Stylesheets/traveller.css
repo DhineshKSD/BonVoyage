@@ -211,3 +211,80 @@ h2
     background: rgb(238, 8, 8);
     color: rgb(248, 248, 248);
 }
+@media only screen and (max-width: 63em) 
+{
+    .logo
+    {
+        position: relative;
+        top:1px;
+        left:34px;
+        width:65px;
+        height: 65px;
+    }
+    header
+    {
+        left:105px;
+        top:53px; 
+        font-size: 2.3em;
+    }
+    .Traveller
+    {
+    position: relative;
+    padding: 40px;
+    padding-top: 20px;
+    max-width: 500px;
+    left:20%;
+    top:4%;
+    width:60%;
+    height:55%;
+   }
+   .Book
+   {
+    position: relative;
+    left:32%;
+    top:8.5%;   
+    }
+    .Logout
+   {
+    font-size: 1.2em;
+    width:160px;
+    height: 40px;
+    left:78%;
+    top:-8%;
+    
+   }
+   #Result2
+   {
+    position: relative;
+    padding:25px;
+    padding-top: 10px;
+    top:1%;
+    left:2.5%;
+    width:90%;
+    height:50%;
+    font-size: 1em;
+   }
+   .codelogo
+   {
+    position: relative;
+    bottom:340px;
+    left:86%;
+    width:90px;
+    height: 90px;
+   }
+   .Download
+   {
+       width:170px;
+       height: 40px;
+       left:30%;
+       bottom: 12%; 
+   }
+   .Delete
+   {
+    position: relative;
+    width:170px;
+    height: 40px;
+    left:51%;
+    bottom: 18.5%;
+   }
+}
