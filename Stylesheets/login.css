@@ -239,6 +239,54 @@ h2
     background: rgb(154, 157, 160);
     color: #000;
 }
+@media only screen and (max-width: 63em) 
+{
+.logo
+{
+    position: relative;
+    top:1px;
+    left:34px;
+    width:65px;
+    height: 65px;
+}
+header
+{
+    left:105px; 
+}
+#myBtn
+{
+    position: relative;
+    left:70%;
+}
+.loginbox
+{
+    top: 60%;
+    left: 80%;
+    position: absolute;
+}
+.registerbox
+{
+    top: 60%;
+    left: 45%;
+    position: absolute;
+}
+.fb
+{
+    position: relative;
+    width:80px;
+    height: 60px;
+    right:17%; 
+    top:40px;
+}
+.google
+{
+    position: relative;
+    width:42px;
+    height: 42px;
+    left:16% ;
+    top:50px;
+}
+}
 
   
     
