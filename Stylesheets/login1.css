@@ -193,3 +193,95 @@ h4
 .down:hover{
     transform: scale(1.2);
 }
+@media only screen and (max-width: 63em) 
+{
+.container
+{
+    top:270px;
+    position: relative;
+    width:100%;
+    height:640px;
+}
+.dest1
+{
+    position: relative;
+    width:11%;
+    height: 17%;
+    left:4%;
+    top:70px;
+    border-radius:20px;
+}
+.dest2
+{
+    position: relative;
+    width:11%;
+    height: 17%;
+    left:8%;
+    top:70px;
+    border-radius:20px;
+}
+.dest3
+{
+    position: relative;
+    width:11%;
+    height: 17%;
+    left:12%;
+    top:70px;
+    border-radius:20px;
+}
+.dest4
+{
+    position: relative;
+    width:11%;
+    height: 17%;
+    right:30.5%;
+    top:270px;
+    border-radius:20px;
+}
+.dest5
+{
+    position: relative;
+    width:11%;
+    height: 17%;
+    right:26.5%;
+    top:270px;
+    border-radius:20px;
+}
+.dest6
+{
+    position: relative;
+    width:11%;
+    height: 17%;
+    right:22.5%;
+    top:270px;
+    border-radius:20px;
+}   
+h3
+{
+    position: relative;
+    color: whitesmoke;
+    font-size: 1.5em;
+    left:41%;
+    top:8px;
+}
+h4
+{
+    position: relative;
+    color: whitesmoke;
+    font-size: 1.5em;
+    left:18.6%;
+    top:50px;
+}
+#contact
+{
+    padding: 100px;
+    padding-top: 50px;
+    padding-left: 90px;
+    max-width: 500px;
+    position: relative;
+    left:60%;
+    bottom:65px;
+    width:15%;
+    height:30%;
+}
+}
