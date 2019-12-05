@@ -162,7 +162,7 @@ function compare() // Compare user search request with local database
     for(i=0;i<disp.length;i++)
     {
         var html=document.getElementById("Result").innerHTML;
-        document.getElementById("Result").innerHTML= html+"<br>"+ "<input type='radio' id='r' value='disp' name='radio[]'>"+"&nbsp"+disp[i]+' '+"Price:Rs. "+ disp1[i]+'<br>';
+        document.getElementById("Result").innerHTML= html+"<br>"+ "<input type='radio' id='r' value='disp' name='radio[]'>"+"&nbsp"+disp[i]+', '+"Price:Rs. "+ disp1[i]+'<br>';
         console.log("<input type='radio' id='r' value='disp' name='radio[]'>"+disp[i]+' '+"<br>"+"Price: "+disp1[i]+'<br>');
     }
 }
