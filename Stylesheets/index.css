@@ -160,7 +160,7 @@ label
     border:2px solid rgb(248, 244, 244);
     font-weight: bold;
 }
-@media only screen and (max-width: 63em) 
+@media only screen and (max-width: 65em) 
 {
     .logo
     {
