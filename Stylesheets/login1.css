@@ -193,7 +193,7 @@ h4
 .down:hover{
     transform: scale(1.2);
 }
-@media only screen and (max-width: 63em) 
+@media only screen and (max-width: 65em) 
 {
 .container
 {
