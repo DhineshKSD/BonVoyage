@@ -11,22 +11,35 @@
     overflow: auto; 
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0,0.4); 
+    text-align: justify;
 }
 .modal-content 
 {
+    position: relative;
+    bottom: 0.5em;
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
     width: 70%;
     border-radius: 50px 0 50px 0;
     border:1px solid rgb(15, 15, 15);
+    text-align: justify;
+}
+.modal-content p
+{
+    position: relative;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
 }
 .close 
 {
+    text-align: justify;
+    position: relative;
     color: #aaaaaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
+    bottom: 0.5em;
 }
   
 .close:hover,.close:focus 
