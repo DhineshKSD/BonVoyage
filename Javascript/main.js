@@ -327,6 +327,32 @@ function ticket()       //to print the ticket
     document.getElementById("Result2").innerHTML= html3+"Ticket-Id : "+tid[id]+space+space+"From : "+b1[id]+space+space+"To : "+b2[id]+space+space+"Name : "+b5[id]+l+l+"Class : Economy"+space+space1+m+b4[id]+l+l+"Flight Details - "+b6[id]+l+l+"No. of. Travellers : "+b3[id]+l+l+"Price : Rs. "+b3[id]*b7[id];
 }   
 
+function ticketprint()
+{
+    window.location.assign("../Source/ticket.html");
+} 
+function x()
+{
+var id=localStorage.getItem("user_id");
+    var space="&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
+    var space1="&nbsp&nbsp&nbsp&nbsp&nbsp";
+    var l="<br>"
+    var m="   Date. of. Journey : "
+
+    var tid= JSON.parse(window.localStorage.getItem("ticket"));
+    var b1=JSON.parse(window.localStorage.getItem("startcity"));
+    var b2=JSON.parse(window.localStorage.getItem("endcity"));
+    var b3=JSON.parse(window.localStorage.getItem("traveller_count"));
+    var b4=JSON.parse(window.localStorage.getItem("date"));
+    var b5=JSON.parse(window.localStorage.getItem('traveller_name'));
+    var b6=JSON.parse(window.localStorage.getItem("choice"));
+    var b7=JSON.parse(window.localStorage.getItem("choiceprice"));
+    html3 = document.getElementById("Result3").innerHTML;
+   
+   document.getElementById("Result3").innerHTML= html3+"Ticket-Id : "+tid[id]+space+space+"From : "+b1[id]+space+space+"To : "+b2[id]+space+space+"Name : "+b5[id]+l+l+"Class : Economy"+space+space1+m+b4[id]+l+l+"Flight Details - "+b6[id]+l+l+"No. of. Travellers : "+b3[id]+l+l+"Price : Rs. "+b3[id]*b7[id];
+   window.print();  
+}
+
 function update() //to edit trip selection
 {   
     var id=localStorage.getItem("user_id");
