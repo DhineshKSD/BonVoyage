@@ -201,7 +201,7 @@ h4
     position: relative;
     width:3%;
     left:47%;
-    top:270px;
+    top:250px;
 }
 .down:hover{
     transform: scale(1.5);
@@ -296,5 +296,11 @@ h4
     bottom:65px;
     width:15%;
     height:30%;
+}
+.down{
+    position: relative;
+    width:3%;
+    left:47%;
+    top:270px;
 }
 }
