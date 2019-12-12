@@ -137,17 +137,17 @@ Database=
     {
     from: "Mumbai", to: "Singapore",
     flight: [
-    {flight_details: "Flight Name: IndiGo, Flight No : 6E 320 ,  Departure: 01.35 AM, Arrival: 10.00 AM", Price: "11,962"},
+    {flight_details: "Flight Name: IndiGo, Flight No : 6E 320 ,  Departure: 01.35 AM, Arrival: 10.00 AM", Price: "8962"},
     {flight_details: "Flight Name: Spicejet , Flight No : SG 597,  Departure: 10.40 AM,  Arrival: 04.45 PM", Price: "8129"},
-    {flight_details: "Flight Name: Air-India , Flight No : AI 342 ,  Departure: 11.50 PM, Arrival: 07.45 AM", Price: "12,512"},
+    {flight_details: "Flight Name: Air-India , Flight No : AI 342 ,  Departure: 11.50 PM, Arrival: 07.45 AM", Price: "9512"},
     ]
     },
     {
     from: "Mumbai", to: "Malaysia",
     flight: [
-    {flight_details: "Flight Name: Malindo , Flight No : OD 216,  Departure: 11.15 PM,  Arrival: 08.20 AM", Price: "15,129"},
-    {flight_details: "Flight Name: Air-India , Flight No : AI 345 ,  Departure: 11.50 PM, Arrival: 07.45 AM", Price: "12,512"},
-    {flight_details: "Flight Name: IndiGo, Flight No : 6E 6313 ,  Departure: 09.35 PM, Arrival: 10.00 AM", Price: "11,015"},
+    {flight_details: "Flight Name: Malindo , Flight No : OD 216,  Departure: 11.15 PM,  Arrival: 08.20 AM", Price: "9129"},
+    {flight_details: "Flight Name: Air-India , Flight No : AI 345 ,  Departure: 11.50 PM, Arrival: 07.45 AM", Price: "9512"},
+    {flight_details: "Flight Name: IndiGo, Flight No : 6E 6313 ,  Departure: 09.35 PM, Arrival: 10.00 AM", Price: "9015"},
     ]
     }
 ]
