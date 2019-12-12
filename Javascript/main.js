@@ -255,6 +255,10 @@ function print_content()  //to get the traveller details
     {
         alert("please enter mobile.no");
     }
+    else if((document.getElementById("mobileno").value).length > 10 || (document.getElementById("mobileno").value).length < 10)
+    {
+        alert("please enter correct mobile.no");
+    }
     else if(gender1==0)
     {
         alert("please select the gender");
@@ -262,6 +266,10 @@ function print_content()  //to get the traveller details
     else if(document.getElementById("passport_id").value=="")
     {
         alert("please enter Passport Id");
+    }
+    else if((document.getElementById("passport_id").value=="").length >8 || (document.getElementById("passport_id").value=="").length <8) 
+    {
+        alert("please enter correct Passport Id");
     }
     else if(pay1==0)
     {
@@ -461,7 +469,7 @@ function delete_fn() //to delete the planned trip
 
     var m = JSON.parse(localStorage.getItem("passport_id"));
     m.splice(id, 1);
-    traveller = JSON.stringify(m);
+    passport_id = JSON.stringify(m);
     localStorage.setItem("passport_id",passport_id);
 
     alert("Your ticket has been deleted")
